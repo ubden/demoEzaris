@@ -9,7 +9,10 @@
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
-  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3); }
+  --color-white: #FFF;
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+  --line: 0.1rem solid var(--color-grey-light-2); }
 
 * {
   margin: 0;
@@ -44,8 +47,8 @@ body {
 .header {
   font-size: 1.4rem;
   height: 7rem;
-  background-color: #FFF;
-  border-bottom: 0.1rem solid var(--color-grey-light-2);
+  background-color: var(--color-white);
+  border-bottom: var(--line);
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -61,8 +64,25 @@ body {
   justify-content: space-between; }
 
 .hotel-view {
-  background-color: #FFF;
-  height: 80rem;
+  background-color: var(--color-white);
+  flex: 1; }
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(--line); }
+
+.description {
+  font-size: 1.4rem;
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  flex: 0 0 60%;
+  margin-right: 4.5rem; }
+
+.user-reviews {
+  background-color: yellowgreen;
   flex: 1; }
 
 .logo {
@@ -129,7 +149,7 @@ body {
     width: 1.75rem;
     border-radius: 50%;
     background-color: var(--color-primary);
-    color: #FFF;
+    color: var(--color-white);
     position: absolute;
     top: 1.5rem;
     right: 1.1rem;
@@ -194,7 +214,7 @@ body {
 .overview {
   display: flex;
   align-items: center;
-  border-bottom: 0.1rem solid var(--color-grey-light-2); }
+  border-bottom: var(--line); }
   .overview__heading {
     font-size: 2.25rem;
     font-weight: 300;
@@ -216,7 +236,7 @@ body {
     margin-right: .5rem; }
   .overview__rating {
     background-color: var(--color-primary);
-    color: #FFF;
+    color: var(--color-white);
     margin-left: 3rem;
     padding: 0 2.25rem;
     align-self: stretch;

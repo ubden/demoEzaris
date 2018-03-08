@@ -95,7 +95,7 @@
         width: 1.75rem;
         border-radius: 50%;
         background-color: var(--color-primary);
-        color: #FFF;
+        color: var(--color-white);
         position: absolute;
         top: 1.5rem;
         right: 1.1rem;
@@ -193,7 +193,7 @@
 .overview {
     display: flex;
     align-items: center;
-    border-bottom: .1rem solid var(--color-grey-light-2);
+    border-bottom: var(--line);
 
 
 
@@ -229,7 +229,7 @@
 
     &__rating {
         background-color: var(--color-primary);
-        color: #FFF;
+        color: var(--color-white);
         margin-left: 3rem;
         padding: 0 2.25rem;
         align-self: stretch;
