@@ -11,8 +11,6 @@
         max-width: 100%;
         width: 100%;
     }
-
-
 }
 
 .header {
@@ -41,9 +39,7 @@
 
 .sidebar {
     background-color: var(--color-grey-dark-1);
-
     flex: 0 0 18%;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -90,7 +86,6 @@
 
 .user-reviews {
     flex: 1;
-
     display: flex;
     flex-direction: column;
     align-items: center;
