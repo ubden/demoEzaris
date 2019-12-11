@@ -3,7 +3,7 @@
 Ezaris is a responsive holiday booking app UI made using HTML5, CSS3, and Flexbox.
 
 ## Live Demo:
-www.jazdosanjh.com/ezaris
+https://ubden.github.io/demoEzaris
 
 ## Built With
 
